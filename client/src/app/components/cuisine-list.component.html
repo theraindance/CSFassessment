@@ -1,1 +1,12 @@
 <p>cuisine-list works!</p>
+<!-- template: `
+    <h2>List of Cuisines</h2>
+    <ul>
+      <li *ngFor="let cuisine of cuisines">{{ cuisine.name }}</li>
+    </ul>
+  ` -->
+
+  <h2>List of Cuisines</h2>
+<ul>
+  <li *ngFor="let cuisine of cuisineNames">{{cuisine}}</li>
+</ul>
